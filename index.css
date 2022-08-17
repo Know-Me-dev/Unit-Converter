@@ -1,0 +1,122 @@
+html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+:root {
+    --header-bg: #6943FF;
+    --border-clr: #B295FF;
+    --para-clr: #353535;
+    --headings-clr: #5A537B;
+    --btn-clr : #FFFFFF;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+header{
+    background-color: var(--header-bg);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0;
+    
+}
+
+.title{
+    text-align: center;
+    margin-top: 0;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 1.7rem;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+#input-el{
+    background-color: var(--header-bg);
+    max-width: 150px;
+    height:60px;
+    text-align: center;
+    font-size: 42px;
+    color: #FFFFFF;
+    border: 2px solid var(--border-clr);
+    margin-bottom: 18px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    
+
+}
+
+#convert-btn{
+    color: var(--para-clr);
+    background-color: white;
+    border: 1px solid transparent;
+    font-size: 16px;
+    width:90px;
+    height:42px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color 120ms ease-in-out, background 120ms ease-in-out, border 150ms ease-in-out;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+
+}
+
+#convert-btn:hover{
+    background-color:transparent;
+    color:white;
+    border: 2px solid var(--border-clr);
+}
+
+#convert-btn:active{
+    background-color: var(--border-clr);
+}
+
+main{
+    background-color:rgb(237, 237, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+   
+}
+
+h3{
+    font-size: 1.3rem;
+    margin-top: 10px;
+    text-align: center;
+    color: var(--headings-clr);
+}
+
+p{
+    margin-top: 0;
+    text-align: center;
+    color: var(--para-clr);
+    font-weight: 500;
+}
+
+
+.container-div{
+   
+    padding: 5px 10px;
+    width: 90%;
+    margin: 10px auto;
+}
+.center-div{
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+}
